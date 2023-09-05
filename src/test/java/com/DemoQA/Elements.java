@@ -33,7 +33,7 @@ public class Elements {
 	@BeforeMethod
 	public void setUp() {
 		try {
-			FileInputStream file = new FileInputStream("D:\\test\\ArnazWork\\DemoQA_Automation\\src\\test\\resources\\configs\\configuration_1.properties");
+			FileInputStream file = new FileInputStream("configuration_1.properties");
 			properties = new Properties();
 			try {
 				properties.load(file);
