@@ -29,7 +29,7 @@ public class Forms {
 	@BeforeMethod
 	public void setUp() {
 		try {
-			FileInputStream file = new FileInputStream("D:\\test\\ArnazWork\\DemoQA_Automation\\src\\test\\resources\\configs\\configuration_2.properties");
+			FileInputStream file = new FileInputStream("configuration_2.properties");
 			properties = new Properties();
 			try {
 				properties.load(file);
