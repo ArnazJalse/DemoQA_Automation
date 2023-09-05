@@ -31,7 +31,7 @@ public class Widgets {
 	@BeforeMethod
 	public void setUp() {
 		try {
-			FileInputStream file = new FileInputStream("D:\\test\\ArnazWork\\DemoQA_Automation\\src\\test\\resources\\configs\\configuration_5.properties");
+			FileInputStream file = new FileInputStream("configuration_5.properties");
 			properties = new Properties();
 			try {
 				properties.load(file);
